@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9533A521AB06C9A0086A1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9533A511AB06C9A0086A1F5 /* main.m */; };
+		A9533A551AB06C9A0086A1F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9533A541AB06C9A0086A1F5 /* AppDelegate.m */; };
+		A9533A581AB06C9A0086A1F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9533A571AB06C9A0086A1F5 /* ViewController.m */; };
+		A9533A5B1AB06C9A0086A1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9533A591AB06C9A0086A1F5 /* Main.storyboard */; };
+		A9533A5D1AB06C9A0086A1F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9533A5C1AB06C9A0086A1F5 /* Images.xcassets */; };
+		A9533A601AB06C9A0086A1F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9533A5E1AB06C9A0086A1F5 /* LaunchScreen.xib */; };
+		A9533A791AB084980086A1F5 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9533A781AB084980086A1F5 /* ContentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9533A4C1AB06C9A0086A1F5 /* Caneloni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caneloni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9533A501AB06C9A0086A1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9533A511AB06C9A0086A1F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9533A531AB06C9A0086A1F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9533A541AB06C9A0086A1F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9533A561AB06C9A0086A1F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9533A571AB06C9A0086A1F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9533A5A1AB06C9A0086A1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9533A5C1AB06C9A0086A1F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9533A5F1AB06C9A0086A1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9533A771AB084980086A1F5 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		A9533A781AB084980086A1F5 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9533A491AB06C9A0086A1F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9533A431AB06C990086A1F5 = {
+			isa = PBXGroup;
+			children = (
+				A9533A4E1AB06C9A0086A1F5 /* Caneloni */,
+				A9533A4D1AB06C9A0086A1F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9533A4D1AB06C9A0086A1F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9533A4C1AB06C9A0086A1F5 /* Caneloni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9533A4E1AB06C9A0086A1F5 /* Caneloni */ = {
+			isa = PBXGroup;
+			children = (
+				A9533A531AB06C9A0086A1F5 /* AppDelegate.h */,
+				A9533A541AB06C9A0086A1F5 /* AppDelegate.m */,
+				A9533A561AB06C9A0086A1F5 /* ViewController.h */,
+				A9533A571AB06C9A0086A1F5 /* ViewController.m */,
+				A9533A771AB084980086A1F5 /* ContentViewController.h */,
+				A9533A781AB084980086A1F5 /* ContentViewController.m */,
+				A9533A591AB06C9A0086A1F5 /* Main.storyboard */,
+				A9533A5C1AB06C9A0086A1F5 /* Images.xcassets */,
+				A9533A5E1AB06C9A0086A1F5 /* LaunchScreen.xib */,
+				A9533A4F1AB06C9A0086A1F5 /* Supporting Files */,
+			);
+			path = Caneloni;
+			sourceTree = "<group>";
+		};
+		A9533A4F1AB06C9A0086A1F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9533A501AB06C9A0086A1F5 /* Info.plist */,
+				A9533A511AB06C9A0086A1F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9533A4B1AB06C9A0086A1F5 /* Caneloni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9533A6F1AB06C9A0086A1F5 /* Build configuration list for PBXNativeTarget "Caneloni" */;
+			buildPhases = (
+				A9533A481AB06C9A0086A1F5 /* Sources */,
+				A9533A491AB06C9A0086A1F5 /* Frameworks */,
+				A9533A4A1AB06C9A0086A1F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caneloni;
+			productName = Caneloni;
+			productReference = A9533A4C1AB06C9A0086A1F5 /* Caneloni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9533A441AB06C990086A1F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Antonio Marques";
+				TargetAttributes = {
+					A9533A4B1AB06C9A0086A1F5 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = GCSCW4K3XR;
+					};
+				};
+			};
+			buildConfigurationList = A9533A471AB06C990086A1F5 /* Build configuration list for PBXProject "Caneloni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9533A431AB06C990086A1F5;
+			productRefGroup = A9533A4D1AB06C9A0086A1F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9533A4B1AB06C9A0086A1F5 /* Caneloni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9533A4A1AB06C9A0086A1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9533A5B1AB06C9A0086A1F5 /* Main.storyboard in Resources */,
+				A9533A601AB06C9A0086A1F5 /* LaunchScreen.xib in Resources */,
+				A9533A5D1AB06C9A0086A1F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9533A481AB06C9A0086A1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9533A791AB084980086A1F5 /* ContentViewController.m in Sources */,
+				A9533A581AB06C9A0086A1F5 /* ViewController.m in Sources */,
+				A9533A551AB06C9A0086A1F5 /* AppDelegate.m in Sources */,
+				A9533A521AB06C9A0086A1F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9533A591AB06C9A0086A1F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9533A5A1AB06C9A0086A1F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9533A5E1AB06C9A0086A1F5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9533A5F1AB06C9A0086A1F5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9533A6D1AB06C9A0086A1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WIT-SOFTWARE, CONSULTORIA E SOFTWARE PARA A INTERNET MOVEL, S.A.";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9533A6E1AB06C9A0086A1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WIT-SOFTWARE, CONSULTORIA E SOFTWARE PARA A INTERNET MOVEL, S.A.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9533A701AB06C9A0086A1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caneloni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.am.Caneloni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9533A711AB06C9A0086A1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caneloni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.am.Caneloni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9533A471AB06C990086A1F5 /* Build configuration list for PBXProject "Caneloni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9533A6D1AB06C9A0086A1F5 /* Debug */,
+				A9533A6E1AB06C9A0086A1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9533A6F1AB06C9A0086A1F5 /* Build configuration list for PBXNativeTarget "Caneloni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9533A701AB06C9A0086A1F5 /* Debug */,
+				A9533A711AB06C9A0086A1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9533A441AB06C990086A1F5 /* Project object */;
+}
